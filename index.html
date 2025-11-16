@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的小宝儿</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🐱 我的小宝儿</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">首页</a></li>
+                    <li><a href="#gallery">相册</a></li>
+                    <li><a href="#about">关于猫咪</a></li>
+                    <li><a href="#contact">联系我</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="home" class="hero">
+                <div class="hero-content">
+                    <div class="hero-image">
+                        <img src="pictures/微信图片_20251116172815_155_29.jpg" alt="我的可爱猫咪" loading="lazy">
+                    </div>
+                    <h2>欢迎来到小宝儿的世界</h2>
+                    <p>这里有我家小宝儿的可爱日常</p>
+                    <button class="cta-button" onclick="scrollToGallery()">查看相册</button>
+                </div>
+            </section>
+
+            <section id="gallery">
+                <h2>猫咪相册</h2>
+                <div class="photo-gallery">
+                    <div class="photo-item">
+                        <img src="pictures/微信图片_20251116172815_155_29.jpg" alt="可爱猫咪照片" loading="lazy">
+                        <p>萌萌的样子</p>
+                    </div>
+                    <div class="photo-item">
+                        <img src="pictures/微信图片_20251116172816_156_29.jpg" alt="可爱猫咪照片" loading="lazy">
+                        <p>慵懒的午后</p>
+                    </div>
+                    <div class="photo-item">
+                        <img src="pictures/微信图片_20251116172818_157_29.jpg" alt="可爱猫咪照片" loading="lazy">
+                        <p>好奇宝宝</p>
+                    </div>
+                    <div class="photo-item">
+                        <img src="pictures/微信图片_20251116172819_158_29.jpg" alt="可爱猫咪照片" loading="lazy">
+                        <p>玩耍时间</p>
+                    </div>
+                    <div class="photo-item">
+                        <img src="pictures/微信图片_20251116172820_159_29.jpg" alt="可爱猫咪照片" loading="lazy">
+                        <p>美梦时刻</p>
+                    </div>
+                    <div class="photo-item">
+                        <img src="pictures/微信图片_20251116172822_160_29.jpg" alt="可爱猫咪照片" loading="lazy">
+                        <p>优雅姿势</p>
+                    </div>
+                    <div class="photo-item">
+                        <img src="pictures/微信图片_20251116172823_161_29.jpg" alt="可爱猫咪照片" loading="lazy">
+                        <p>打哈欠</p>
+                    </div>
+                    <div class="photo-item">
+                        <img src="pictures/微信图片_20251116172824_162_29.jpg" alt="可爱猫咪照片" loading="lazy">
+                        <p>凝视远方</p>
+                    </div>
+                    <div class="photo-item">
+                        <img src="pictures/微信图片_20251116172825_163_29.jpg" alt="可爱猫咪照片" loading="lazy">
+                        <p>放松状态</p>
+                    </div>
+                    <div class="photo-item">
+                        <img src="pictures/微信图片_20251116172828_164_29.jpg" alt="可爱猫咪照片" loading="lazy">
+                        <p>开心时光</p>
+                    </div>
+                    <div class="photo-item">
+                        <img src="pictures/微信图片_20251116172829_165_29.jpg" alt="可爱猫咪照片" loading="lazy">
+                        <p>思考人生</p>
+                    </div>
+                    <div class="photo-item">
+                        <img src="pictures/微信图片_20251116172830_166_29.jpg" alt="可爱猫咪照片" loading="lazy">
+                        <p>伸懒腰</p>
+                    </div>
+                    <div class="photo-item">
+                        <img src="pictures/微信图片_20251116172831_167_29.jpg" alt="可爱猫咪照片" loading="lazy">
+                        <p>好奇宝宝2</p>
+                    </div>
+                    <div class="photo-item">
+                        <img src="pictures/微信图片_20251116172832_168_29.jpg" alt="可爱猫咪照片" loading="lazy">
+                        <p>准备睡觉</p>
+                    </div>
+                    <div class="photo-item">
+                        <img src="pictures/微信图片_20251116172833_169_29.jpg" alt="可爱猫咪照片" loading="lazy">
+                        <p>完美收尾</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about">
+                <h2>关于我的猫咪</h2>
+                <div class="cat-info">
+                    <div class="cat-details">
+                        <h3>基本信息</h3>
+                        <ul>
+                            <li><strong>名字：</strong><span id="cat-name">小宝儿</span></li>
+                            <li><strong>年龄：</strong><span id="cat-age">5岁</span></li>
+                            <li><strong>品种：</strong><span id="cat-breed">长毛银渐层</span></li>
+                            <li><strong>性别：</strong><span id="cat-gender">男宝宝</span></li>
+                            <li><strong>性格：</strong><span id="cat-personality">温顺可爱，喜欢撒娇</span></li>
+                        </ul>
+                    </div>
+                    <div class="cat-habits">
+                        <h3>兴趣爱好</h3>
+                        <ul>
+                            <li>🐟 吃美食</li>
+                            <li>🧶 玩吸管儿，玩假鸟</li>
+                            <li>😴 晒太阳</li>
+                            <li>🎾 追逐玩具</li>
+                            <li>💤 睡大觉</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>联系我</h2>
+                <p>如果你也喜欢小宝儿，欢迎和我交流！</p>
+                <div class="contact-info">
+                    <p>📧 邮箱：1286359179@qq.com</p>
+                    <p>📱 微信：15776544364</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 我的小宝儿网页. 用❤️制作</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
